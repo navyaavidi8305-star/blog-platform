@@ -1,7 +1,8 @@
 import axios from "axios";
 
-const API = axios.create({
-    baseURL:"http://localhost:5000/api"
-});
+export default axios.create({
 
-export default API;
+baseURL:
+"https://blog-platform-api-gi0e.onrender.com/api"
+
+});
